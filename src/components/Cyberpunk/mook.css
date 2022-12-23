@@ -1,0 +1,40 @@
+.mookName {
+    writing-mode: vertical-rl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-orientation: mixed;
+    transform: scale(-1);
+    background-color: red;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 100%);
+    font-weight: bold;
+    font-size: 400%;
+}
+
+.mookBody {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputText {
+    background-color: white !important;
+    text-align: center;
+}
+
+.spacing {
+    margin: 10%;
+}
+
+.inputArea {
+    background-color: white !important;
+    color: black;
+    width: 100%;
+}
+
+input {
+    font-size: 2px;
+}
